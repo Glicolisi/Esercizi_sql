@@ -44,5 +44,6 @@ SELECT * FROM INGREDIENT WHERE !CONTAINS_LACTOSE;
 CREATE TABLE HIGH_CALORIE_MEAL AS
 SELECT * FROM MEAL WHERE CALORIES > 650;
 
+
 --------------------------------------------------------------------------------------------------------------------------
 
