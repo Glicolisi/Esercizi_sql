@@ -33,6 +33,8 @@ VALUES ('Spaghetti Bolognese', 12.99, 600),
 ('Pesto Pasta', 10.99, 550),
 ('Steak and Mash', 19.99, 800),
 ('Sushi Platter', 15.99, 700);
+
+
 CREATE TABLE CHEAP_MEALS AS
 SELECT * FROM MEAL WHERE PRICE < 15;
 CREATE TABLE VEGAN_INGREDIENT AS
